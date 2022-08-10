@@ -1,0 +1,297 @@
+@font-face {
+  font-family: "Larisha";
+  src: local("LarishNeueSemibold.woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Larisha";
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  height: 100vh;
+}
+
+main {
+  position: relative;
+}
+
+.bgblack {
+  background-color: black;
+  color: white;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-bottom: 10vh;
+}
+
+.dflex {
+  display: flex;
+}
+
+.strich div {
+  height: 160px;
+}
+.strich:nth-child(1) {
+  border-right: 1px solid #fff;
+  width: 50vw;
+}
+
+.mainpage {
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 15vh;
+}
+.mainpage p {
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  font-size: 20px;
+}
+.mainpage h1 {
+  font-size: 100px;
+  line-height: 75px;
+  font-weight: 600;
+}
+
+.h1outline {
+  -webkit-text-stroke: 1px white;
+  -webkit-text-fill-color: black;
+}
+
+.logorsvp {
+  justify-content: space-between;
+}
+.logorsvp img {
+  margin-left: 7vw;
+}
+.logorsvp p {
+  margin-right: 7vw;
+  border: 1px solid #fff;
+  padding: 15px 25px 15px 25px;
+  width: 110px;
+  text-align: center;
+}
+.logorsvp p:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.facts {
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.firstarticle {
+  padding-top: 10%;
+  position: relative;
+}
+.firstarticle > p {
+  margin-bottom: 10vh;
+  width: 75vw;
+}
+.firstarticle div > h3 {
+  font-weight: 100;
+}
+.firstarticle img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+}
+
+.galerie {
+  position: relative;
+}
+.galerie div {
+  margin-left: 30vw;
+  padding-top: 35vh;
+  width: 500px;
+}
+.galerie div h4 {
+  font-size: 100px;
+  line-height: 80px;
+  padding-bottom: 20px;
+}
+.galerie div p {
+  line-height: 30px;
+}
+.galerie div p:first-of-type {
+  margin-bottom: 100vh;
+}
+.galerie img {
+  position: absolute;
+}
+.galerie img:nth-child(1) {
+  max-width: 350px;
+  right: 7vw;
+  top: -8vh;
+  z-index: 99;
+}
+.galerie img:nth-child(2) {
+  max-width: 300px;
+  left: 4vw;
+  top: 30vh;
+  z-index: 99;
+}
+.galerie img:nth-child(3) {
+  max-width: 300px;
+  right: 0;
+  top: 60vh;
+  z-index: 99;
+}
+.galerie img:nth-child(4) {
+  max-width: 350px;
+  left: 15vw;
+  top: 90vh;
+  z-index: 99;
+}
+.galerie img:nth-child(5) {
+  max-width: 350px;
+  right: 15vw;
+  top: 120vh;
+  z-index: 99;
+}
+.galerie img:nth-child(6) {
+  max-width: 300px;
+  left: 0;
+  top: 170vh;
+  z-index: 99;
+}
+.galerie img:nth-child(7) {
+  max-width: 400px;
+  right: 25vw;
+  bottom: -25vw;
+  z-index: 99;
+}
+
+.firstbearsection {
+  margin-top: 30vh;
+  position: relative;
+  height: 80vw;
+}
+.firstbearsection > p {
+  padding-top: 25vh;
+}
+.firstbearsection article {
+  justify-content: space-between;
+}
+.firstbearsection article h4 {
+  font-size: 100px;
+  width: 300px;
+  line-height: 80px;
+}
+.firstbearsection article div {
+  width: 600px;
+  padding-right: 100px;
+}
+.firstbearsection article div p {
+  padding-bottom: 20px;
+}
+.firstbearsection article div p:first-of-type {
+  font-size: 30px;
+}
+
+.firstbearsection img {
+  position: absolute;
+}
+.firstbearsection img:first-of-type {
+  max-width: 600px;
+  bottom: -15vh;
+}
+.firstbearsection img:last-child {
+  max-width: 350px;
+  bottom: -7vh;
+  left: 50vw;
+}
+
+.secondbearsection {
+  margin-top: 40vh;
+  position: relative;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  height: 100vw;
+}
+.secondbearsection .drehendeslogo {
+  position: absolute;
+  max-width: 300px;
+  right: -5vw;
+  top: -30vw;
+}
+.secondbearsection article {
+  justify-content: space-between;
+}
+.secondbearsection article h4 {
+  font-size: 100px;
+  width: 300px;
+  line-height: 80px;
+}
+.secondbearsection article div {
+  width: 600px;
+  padding-right: 100px;
+}
+.secondbearsection article div p {
+  padding-bottom: 20px;
+}
+.secondbearsection article div p:first-of-type {
+  font-size: 30px;
+}
+
+.secondbearsection img {
+  position: absolute;
+}
+.secondbearsection img:nth-of-type(2) {
+  max-width: 400px;
+  top: 42vw;
+  left: 5vw;
+  z-index: 1;
+}
+.secondbearsection img:nth-of-type(3) {
+  max-width: 700px;
+  left: 25vw;
+  top: 33vw;
+}
+
+footer {
+  padding-top: 10vw;
+}
+
+.footersection h5 {
+  font-size: 40px;
+  width: 550px;
+  line-height: 50px;
+}
+.footersection p:first-of-type {
+  padding-bottom: 5vh;
+}
+.footersection p:nth-of-type(2) {
+  border: 1px solid #fff;
+  padding: 15px 25px 15px 25px;
+  text-align: center;
+  width: 110px;
+  margin-top: 5vh;
+  margin-bottom: 20vh;
+}
+.footersection p:nth-of-type(2):hover {
+  background-color: #fff;
+  color: black;
+}
+.footersection .footerend {
+  justify-content: space-between;
+  margin-right: 10vw;
+}
+.footersection .footerend div img {
+  width: 100px;
+}
+.footersection .socials {
+  display: flex;
+}
+.footersection .socials img {
+  width: 30px;
+  padding-bottom: 5vh;
+}
+
+/*# sourceMappingURL=style.css.map */

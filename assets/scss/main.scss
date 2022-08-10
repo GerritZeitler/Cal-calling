@@ -1,0 +1,366 @@
+@font-face {
+    font-family: "Larisha";
+    src: local("LarishNeueSemibold.woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Larisha";
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+}
+
+.bgblack {
+    background-color: black;
+    color: white;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-bottom: 10vh;
+}
+
+.dflex {
+    display: flex;
+}
+
+.strich {
+    div {
+        height: 160px;
+    }
+
+    &:nth-child(1) {
+        border-right: 1px solid #fff;
+        width: 50vw;
+    }
+}
+
+.mainpage {
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+
+    p {
+        margin-bottom: 3vh;
+        margin-top: 3vh;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 100px;
+        line-height: 75px;
+        font-weight: 600;
+    }
+}
+
+.h1outline {
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: black;
+}
+
+.logorsvp {
+    justify-content: space-between;
+
+    img {
+        margin-left: 7vw;
+
+    }
+
+    p {
+        margin-right: 7vw;
+        border: 1px solid #fff;
+        padding: 15px 25px 15px 25px;
+        width: 110px;
+        text-align: center;
+
+        &:hover {
+            background-color: #fff;
+            color: black;
+        }
+    }
+
+
+}
+
+.facts {
+    font-size: 100px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.firstarticle {
+    padding-top: 10%;
+    position: relative;
+
+    >p {
+        margin-bottom: 10vh;
+        width: 75vw;
+    }
+
+    div>h3 {
+        font-weight: 100;
+    }
+
+    img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 400px;
+    }
+}
+
+.galerie {
+    position: relative;
+
+    div {
+
+        margin-left: 30vw;
+        padding-top: 35vh;
+        width: 500px;
+
+        h4 {
+            font-size: 100px;
+            line-height: 80px;
+            padding-bottom: 20px;
+        }
+
+        p {
+            line-height: 30px;
+
+            &:first-of-type {
+                margin-bottom: 100vh;
+            }
+        }
+    }
+
+    img {
+        position: absolute;
+
+
+        &:nth-child(1) {
+            max-width: 350px;
+            right: 7vw;
+            top: -8vh;
+            z-index: 99;
+        }
+
+        &:nth-child(2) {
+            max-width: 300px;
+            left: 4vw;
+            top: 30vh;
+            z-index: 99;
+        }
+
+        &:nth-child(3) {
+            max-width: 300px;
+            right: 0;
+            top: 60vh;
+            z-index: 99;
+        }
+
+        &:nth-child(4) {
+            max-width: 350px;
+            left: 15vw;
+            top: 90vh;
+            z-index: 99;
+        }
+
+        &:nth-child(5) {
+            max-width: 350px;
+            right: 15vw;
+            top: 120vh;
+            z-index: 99;
+        }
+
+        &:nth-child(6) {
+            max-width: 300px;
+            left: 0;
+            top: 170vh;
+            z-index: 99;
+        }
+
+        &:nth-child(7) {
+            max-width: 400px;
+            right: 25vw;
+            bottom: -25vw;
+            z-index: 99;
+        }
+    }
+
+}
+
+
+
+.firstbearsection {
+    margin-top: 30vh;
+    position: relative;
+    height: 80vw;
+
+    >p {
+        padding-top: 25vh;
+    }
+
+    article {
+        justify-content: space-between;
+
+        h4 {
+            font-size: 100px;
+            width: 300px;
+            line-height: 80px;
+        }
+
+        div {
+            width: 600px;
+
+            padding-right: 100px;
+
+            p {
+                padding-bottom: 20px;
+
+                &:first-of-type {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+
+}
+
+.firstbearsection img {
+    position: absolute;
+
+    &:first-of-type {
+        max-width: 600px;
+        bottom: -15vh;
+    }
+
+    &:last-child {
+        max-width: 350px;
+        bottom: -7vh;
+        left: 50vw;
+    }
+}
+
+.secondbearsection {
+    margin-top: 40vh;
+    position: relative;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    height: 100vw;
+
+    .drehendeslogo {
+        position: absolute;
+        max-width: 300px;
+        right: -5vw;
+        top: -30vw;
+
+    }
+
+    article {
+        justify-content: space-between;
+
+        h4 {
+            font-size: 100px;
+            width: 300px;
+            line-height: 80px;
+        }
+
+        div {
+            width: 600px;
+
+            padding-right: 100px;
+
+            p {
+                padding-bottom: 20px;
+
+                &:first-of-type {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+.secondbearsection img {
+    position: absolute;
+
+    &:nth-of-type(2) {
+        max-width: 400px;
+        top: 42vw;
+        left: 5vw;
+        z-index: 1;
+    }
+
+    &:nth-of-type(3) {
+        max-width: 700px;
+        left: 25vw;
+        top: 33vw;
+
+    }
+}
+
+footer {
+    padding-top: 10vw;
+
+}
+
+.footersection {
+    h5 {
+        font-size: 40px;
+        width: 550px;
+        line-height: 50px;
+    }
+
+    p {
+        &:first-of-type {
+            padding-bottom: 5vh;
+        }
+
+        &:nth-of-type(2) {
+            border: 1px solid #fff;
+            padding: 15px 25px 15px 25px;
+            text-align: center;
+            width: 110px;
+            margin-top: 5vh;
+            margin-bottom: 20vh;
+
+            &:hover {
+                background-color: #fff;
+                color: black;
+            }
+        }
+
+
+    }
+
+    .footerend {
+        justify-content: space-between;
+        margin-right: 10vw;
+
+        div img {
+            width: 100px;
+
+        }
+    }
+
+    .socials {
+        display: flex;
+
+        img {
+            width: 30px;
+            padding-bottom: 5vh;
+        }
+
+    }
+}
